@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name         = 'react-native-background-downloader'
+  s.name         = 'RNBackgroundDownloader'
   s.version      = '1.0.0'
   s.summary      = 'React Native background downloader'
   s.description  = <<-DESC
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.platform     = :ios, '7.0'
   s.source       = { git: 'https://github.com/EkoLabs/react-native-background-downloader.git', tag: 'master' }
-  s.source_files = 'ios/**/*.{h,m}'
+  s.source_files = '**/*.{h,m}'
   s.requires_arc = true
 
   s.dependency 'React'
